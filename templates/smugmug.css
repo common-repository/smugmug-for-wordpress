@@ -1,0 +1,124 @@
+/*********** Widget *****************/
+.loading_bar {
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  background: rgb(255,255,255) url(../images/loading-bar-light.gif) no-repeat 50% 50%;
+  background: rgba(255,255,255,0.6) url(../images/loading-bar-light.gif) no-repeat 50% 50%;
+}
+.widget_smugmug-widget-images {
+    
+}
+.widget_smugmug-widget-images h3 {
+    
+}
+ul.smw-widget-images-list {
+    list-style: none outside none;
+    width: 163px;
+}
+aside .smw-widget-images-list li {
+    border: 1px solid #4C4C4C;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 3px;
+}
+aside .smw-widget-images-list li:hover {
+    background-color: #C3C3C3;
+}
+.smw-widget-images-list li a {
+    display: block;
+    height: auto;
+    line-height: 0;
+    /*overflow: auto;*/
+    width: auto;
+}
+
+.smw-widget-images-list li a img {
+    max-width: 100%;
+}
+/*********** Standard CSS ***********/
+#smw-images {
+    
+}
+#smw-imagelist {
+    clear: both;
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    overflow: auto;
+}
+#smw-imagelist li {
+    border: 1px solid #4C4C4C;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 3px;
+}
+#smw-imagelist li:hover {
+    background-color: #C3C3C3;
+}
+#smw-imagelist li a {
+    display: block;
+    height: auto;
+    line-height: 0;
+    /*overflow: auto;*/
+    width: auto;
+}
+
+/********** Pagination ************/
+.smw-pagination {
+    clear: both;
+    display: block;
+    overflow: auto;
+    text-align: center;
+    width: auto;
+    font-weight: bold;
+}
+.smw-pagination.top {
+    margin-bottom: 30px;
+}
+.smw-pagination.bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.smw-pagination span.current {
+    border: 1px solid #4C4C4C;
+    line-height: 30px;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+.smw-pagination span.ellipse {
+    line-height: 30px;
+    margin-left: 10px;
+    padding: 5px 0;
+}
+.smw-pagination a.page {
+    border: 1px solid #4C4C4C;
+    line-height: 30px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #707070;
+    color:#fff;
+}
+.smw-pagination a.page:hover {
+    background-color: #C3C3C3;
+    color:#575757;
+    text-decoration: none;
+}
+.smw-pagination a.page.previous {
+    
+}
+.smw-pagination a.page.next {
+    
+}
+
+/*********** Four Column ************/
+
+#smw-images.four-columns {
+    width: 630px;
+}
+#smw-images.four-columns .smw-pagination {
+    margin-left: -15px;
+}
